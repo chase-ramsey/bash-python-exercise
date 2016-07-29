@@ -8,6 +8,7 @@ Videogames:
 7. Tacoma
 8. The Witcher 3
 9. The Witness
+
 Music:
 1. B-Boys
 2. Bell Witch
@@ -21,6 +22,7 @@ Music:
 10. Rustie
 11. Shigeto
 12. Thomas Fehlmann
+
 Grocery:
 1. apples
 2. bananas

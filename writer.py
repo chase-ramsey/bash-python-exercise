@@ -14,8 +14,9 @@ class Writer():
 
   def write_items(self):
     with open('current-items.txt', 'a') as file:
-      file.write(self.list_name.capitalize() + ":\n")
+      file.write(self.list_name.capitalize() + ':\n')
       [file.write('{0}. {1}\n'.format(index + 1, item)) for index, item in enumerate(self.arg_items)]
+      file.write('\n')
 
 writer = Writer()
 writer.get_args()
