@@ -12,3 +12,6 @@ class Reader():
     self.items = [re.sub(r'\s', '_', item) for item in self.items]
     items_string = (' ').join(self.items)
     return items_string
+
+reader = Reader()
+print(reader.concat_items())
