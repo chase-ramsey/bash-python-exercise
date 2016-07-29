@@ -9,6 +9,7 @@ class Writer():
   def get_args(self):
     [self.arg_items.append(arg) for arg in sys.argv[1:]]
     self.arg_items.sort()
+    self.arg_items = [re.sub('_', r'\s', item) for item in self.arg_items]
 
   def write_items(self):
     with open('current-items.txt', 'a') as file:
